@@ -1,0 +1,27 @@
+{
+  "name": "react-native-animated-image-entrances",
+  "version": "1.0.0",
+  "description": "React Native Animated Image Entrances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordkiz/react-native-animated-image-entrances.git"
+  },
+  "keywords": [
+    "React",
+    "native",
+    "image",
+    "animated",
+    "cool",
+    "effects"
+  ],
+  "author": "Kizito Egeonu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordkiz/react-native-animated-image-entrances/issues"
+  },
+  "homepage": "https://github.com/lordkiz/react-native-animated-image-entrances#readme"
+}

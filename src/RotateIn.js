@@ -26,7 +26,7 @@ export default class RotateIn extends Component {
     render() {
         return (
             <Animated.Image
-                style={[styles.image, (this.props.styles) && this.props.style, {transform: [{rotate: this.rotate}]} ]}
+                style={[styles.image, (this.props.style) && this.props.style, {transform: [{rotate: this.rotate}]} ]}
                 source={{uri: this.props.source}}
                 resizeMode={this.props.resizeMode || 'cover'}
                 onLoadStart={this.props.onLoadStart}

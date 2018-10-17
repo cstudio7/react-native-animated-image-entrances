@@ -23,7 +23,7 @@ export default class SlideInFromRight extends Component {
     render() {
         return (
             <Animated.Image
-                style={[styles.image, (this.props.styles) && this.props.style, {right: this.slideIn, position: 'absolute' } ]}
+                style={[styles.image, (this.props.style) && this.props.style, {right: this.slideIn, position: 'absolute' } ]}
                 source={{uri: this.props.source}}
                 resizeMode={this.props.resizeMode || 'cover'}
                 onLoadStart={this.props.onLoadStart}

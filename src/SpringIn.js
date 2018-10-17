@@ -18,7 +18,7 @@ export default class SpringIn extends Component {
     render() {
         return (
             <Animated.Image
-                style={[styles.image, (this.props.styles) && this.props.style, {transform: [{scale: this.springValue}]} ]}
+                style={[styles.image, (this.props.style) && this.props.style, {transform: [{scale: this.springValue}]} ]}
                 source={{uri: this.props.source}}
                 resizeMode={this.props.resizeMode || 'cover'}
                 onLoadStart={this.props.onLoadStart}

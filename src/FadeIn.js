@@ -19,7 +19,7 @@ export default class FadeIn extends Component {
     render() {
         return (
             <Animated.Image
-                style={[styles.image, (this.props.styles) && this.props.style, {opacity: this.opacity}]}
+                style={[styles.image, (this.props.style) && this.props.style, {opacity: this.opacity}]}
                 source={{uri: this.props.source}}
                 resizeMode={this.props.resizeMode || 'cover'}
                 onLoadStart={this.props.onLoadStart}
